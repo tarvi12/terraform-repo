@@ -1,6 +1,6 @@
 terraform{
     backend "s3" {
-    bucket         	   = "terrafrom-remote-tarvi"
+    bucket         	   = "terraform-remote-tarvi"
     key              	   = "state/terraform.tfstate"
     region         	   = "us-east-1"
   }
